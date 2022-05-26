@@ -42,6 +42,8 @@
   },
   "devDependencies": {
     "axios": "^0.27.2",
-    "node-sass": "^7.0.1"
+    "movie-trailer": "^2.1.0",
+    "node-sass": "^7.0.1",
+    "react-youtube": "^9.0.2"
   }
 }
