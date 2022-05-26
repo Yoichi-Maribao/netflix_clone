@@ -13,6 +13,7 @@ type MovieProps = {
 
 export const Banner = () => {
   const [movie, setMovie] = useState<MovieProps>({});
+
   useEffect(() => {
     async function fetchData() {
       const request = await axios.get(requests.feachNetflixOriginals);
